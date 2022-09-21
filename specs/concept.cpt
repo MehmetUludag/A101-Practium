@@ -1,0 +1,54 @@
+# Alışverişe Başla
+* "//button[text()='Kabul Et']" Xpath'li element görünür mü?
+* "//button[text()='Kabul Et']" Xpath'li elemente tıkla
+* "//a[@title='GİYİM & AKSESUAR']" Xpath'li element görünür mü?
+* "//a[@title='GİYİM & AKSESUAR']" Xpath'li elemente tıkla
+* "(//li[@class='derin '])[2]" Xpath'li element görünür mü?
+* "(//li[@class='derin '])[2]" Xpath'li elemente tıkla
+* "(//li[@class='derin '])[2]" Xpath'li element görünür mü?
+* "(//li[@class='derin '])[2]" Xpath'li elemente tıkla
+* "(//li[@class='derin '])[2]" Xpath'li element görünür mü?
+* "//a[@data-value='1567']" Xpath'li elemente tıkla
+* "//a[@title='Penti Kadın 50 Denye Pantolon Çorabı Siyah']" Xpath'li element görünür mü?
+
+# Sepete Ekle
+* "//div[@class='count']" Xpath'li elemente tıkla
+* "//button[@class='add-to-basket button green block with-icon js-add-basket']" Xpath'li element görünür mü?
+* "//button[@class='add-to-basket button green block with-icon js-add-basket']" Xpath'li elemente tıkla
+* "//a[@title='Sepeti Görüntüle']" Xpath'li element görünür mü?
+* "(//a[@title='Sepeti Görüntüle'])[2]" Xpath'li elemente tıkla
+* ".button.green.checkout-button.block.js-checkout-button" CssSelector'lu element görünür mü?
+* ".button.green.checkout-button.block.js-checkout-button" CssSelector'lu elemente tıkla
+
+# Alışverişi Tamamla
+* ".auth__form__proceed.js-proceed-to-checkout-btn" CssSelector'lu element görünür mü?
+* ".auth__form__proceed.js-proceed-to-checkout-btn" CssSelector'lu elemente tıkla
+* "//input[@name='user_email']" Xpath'li element görünür mü?
+* "//input[@name='user_email']" Xpath'e tıkla ve "mehmtuludag@gmail.comm"'i gir
+* "//button[normalize-space(text())='DEVAM ET']" Xpath'li elemente tıkla
+
+# Adres Gir
+* ".new-address.js-new-address" CssSelector'lu element görünür mü?
+* ".new-address.js-new-address" CssSelector'lu elemente tıkla
+* "//input[@name='title']" Xpath'li element görünür mü?
+* "//input[@name='title']" Xpath'e tıkla ve "İş Adresim"'i gir
+* "//input[@name='first_name']" Xpath'e tıkla ve "Mehmet"'i gir
+* "//input[@name='last_name']" Xpath'e tıkla ve "Uludağ"'i gir
+* "//input[@class='js-phone-number']" Xpath'e tıkla ve "5444544322"'i gir
+* ".js-cities" Css Selector'den "İZMİR" text'ini seç
+* "1" saniye kadar bekle
+* ".js-township" Css Selector'den "BUCA" text'ini seç
+* "1" saniye kadar bekle
+* ".js-district" Css Selector'den "ATATÜRK MAH" text'ini seç
+* "//textarea[@class='js-address-textarea']" Xpath'e tıkla ve "Atatürk Parkı karşı çarprazı Paşalar Apt. No:4"'i gir
+* ".button.green.js-set-country.js-prevent-emoji" CssSelector'lu element görünür mü?
+* ".button.green.js-set-country.js-prevent-emoji" CssSelector'lu elemente tıkla
+* "20" saniye kadar bekle
+
+# Siparişi Tamamla
+* ".button.block.green.js-proceed-button" CssSelector'lu element görünür mü?
+* ".button.block.green.js-proceed-button" CssSelector'lu elemente tıkla
+* ".order-complete" CssSelector'lu element görünür mü?
+* ".order-complete" CssSelector'lu elemente tıkla
+
+* "8" saniye kadar bekle
