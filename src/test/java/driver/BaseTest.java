@@ -12,18 +12,17 @@ public class BaseTest {
 
     @BeforeScenario
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--disable-notifications");
-        chromeOptions.addArguments("--disable-gpu");
-        chromeOptions.addArguments("--disable-popup-blocking");
 
-        driver = new ChromeDriver(chromeOptions);
-        driver.manage().window().maximize();
-        driver.get("https://www.a101.com.tr");
+            System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--disable-notifications");
+            chromeOptions.addArguments("--disable-gpu");
+            chromeOptions.addArguments("--disable-popup-blocking");
+
+            driver = new ChromeDriver(chromeOptions);
+            driver.manage().window().maximize();
+            driver.get("https://www.a101.com.tr");
     }
-
-
 
     @AfterScenario
     public void tearDown(){

@@ -24,7 +24,7 @@
 * ".auth__form__proceed.js-proceed-to-checkout-btn" CssSelector'lu element görünür mü?
 * ".auth__form__proceed.js-proceed-to-checkout-btn" CssSelector'lu elemente tıkla
 * "//input[@name='user_email']" Xpath'li element görünür mü?
-* "//input[@name='user_email']" Xpath'e tıkla ve "mehmtuludag@gmail.comm"'i gir
+* "//input[@name='user_email']" Xpath'e tıkla ve "mehmtuldag@gmail.comm"'i gir
 * "//button[normalize-space(text())='DEVAM ET']" Xpath'li elemente tıkla
 
 # Adres Gir
@@ -51,4 +51,4 @@
 * ".order-complete" CssSelector'lu element görünür mü?
 * ".order-complete" CssSelector'lu elemente tıkla
 
-* "8" saniye kadar bekle
+* "5" saniye kadar bekle
